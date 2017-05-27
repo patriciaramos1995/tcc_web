@@ -12,7 +12,33 @@
 	<script src="<c:url value="/resources/js/bootstrap.js"/>" type="text/javascript"></script> 
 	<script src="<c:url value="/resources/js/bootstrap.min.js"/>" type="text/javascript"></script>
 	
+	<!-- controller -->
+	
+	<script src="<c:url value="/resources/app/controller/app.controller.js"/>"></script>
+	
 	<title>Radar Social</title>
+	<script>
+	/*
+	var app = angular.module("myApp", []); 
+	
+	app.directive("metricsFacebook", function() {
+	  return {
+	      templateUrl : '/RadarSocialWeb/resources/app/jsp/metrics.facebook.jsp'
+	  };
+	});
+	
+	app.directive("metricsTwitter", function() {
+		return {
+		      templateUrl : '/RadarSocialWeb/resources/app/jsp/metrics.twitter.jsp'
+		};
+	});
+	
+	app.directive("metricsFeeds", function() {
+		  return {
+		      templateUrl : '/RadarSocialWeb/resources/app/jsp/metrics.feeds.jsp'
+		 };
+	});*/
+	</script>
 </head>
 <body ng-app="myApp">
 <nav class="navbar navbar-default">

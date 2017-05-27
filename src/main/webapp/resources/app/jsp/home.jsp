@@ -1,11 +1,6 @@
 <%@include file="/header.jsp"%>
-<!--  <ul class="nav nav-tabs">
-	<li class="active" metrics-feeds><a href="#">Feeds</a></li>
-	<li metrics-facebook><a href="#">Facebook</a></li>
-	<li metrics-twitter><a href="#">Twitter</a></li>
-</ul>
--->
-<div class="row">
+
+<div class="row" ng-controller="AppCtrl">
 
 	<ul class="nav nav-tabs" role="tablist" id="submenu">
 
@@ -45,7 +40,6 @@
 
 	<div metrics-twitter ng-if="selectedTab == 'twitter'"
 		class="col-xs-12" style="margin-top: 70px;"></div>
-</div>
 </div>
 
 
